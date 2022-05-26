@@ -1,0 +1,26 @@
+{% load travels_tags %}
+{% get_list_regions as regions %}
+<header class="header bg-secondary">
+    <div class="container">
+        <!-- nav -->
+        <nav class="py-3">
+            <div id="logo">
+                <h1> <a class="navbar-brand button"> Sayohat.uz </a>
+                </h1>
+            </div>
+            <input type="checkbox" id="drop" />
+            <ul class="menu mt-2">
+                <li class="active"><a href="/">Bosh sahifa</a></li>
+                <li class="dropdown">
+                    <label for="drop-2" class="toggle">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                    <a href="#"> Viloyatlar <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                    <input type="checkbox" id="drop-2" />
+                {% include 'inc/_sidebar.html' %}
+                </li>
+                <li><a href="">Biz bilan aloqa</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- //nav -->
+    </div>
+</header>

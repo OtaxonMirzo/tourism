@@ -1,0 +1,311 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <!-- mian-content -->
+    <div class="main-content" id="home">
+        <!-- banner -->
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-6 banner-info-w3ls">
+                        <h2>Dam olish kuningizda rohat oling</h2>
+                        <h3 class="mb-3">Bayram sayohatingizni hozirdan ajoyib sarguzashtni rejalashtiring</h3>
+                        <p class="mb-4"> Butun O'zbekiston bo'ylab sayohat qilish vaqti keldi </p>
+                        <a href="" class="btn"> Batafsil </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //banner -->
+    </div>
+    <!--/ab -->
+    <section class="about py-lg-5 py-md-5 py-5">
+        <div class="container">
+            <div class="inner-sec-w3pvt py-lg-5 py-3">
+                <h3 class="tittle text-center mb-lg-5 mb-3 px-lg-5"> O'zbekistonni biz bilan o'rganing </h3>
+                <div class="feature-grids row mt-3 mb-lg-5 mb-3 mt-lg-5 text-center">
+                    <div class="col-lg-4" data-aos="fade-up">
+                        <div class="bottom-gd px-3">
+                            <span class="fa fa-bus" aria-hidden="true"></span>
+                            <h3 class="my-4"> Avtobus hizmati </h3>
+                            <p> Siz xohlagan turdagi qulay avtobus transportlari bilan taminlash </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up">
+                        <div class="bottom-gd2-active px-3">
+                            <span class="fa fa-car" aria-hidden="true"></span>
+                            <h3 class="my-4"> Ijara asosida yengil avtomillarni olish  </h3>
+                            <p> Siz xohlagan turdagi yengil avtomobilllarni qulay narxlarda ijaraga oling, va yaqinlaringiz bilan alohida sayohat qiling </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up">
+                        <div class="bottom-gd px-3">
+                            <span class="fa fa-rocket" aria-hidden="true"></span>
+                            <h3 class="my-4"> Yuqori tezlikdagi internet bilan taminlash </h3>
+                            <p> Siz uchun yaratilgan maxsus qurilmamizni harid qiling va O'zbekistonning har qanday nuqtasida yuqori texlikdagi internetdan foydalaning </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+    <!-- //ab -->
+    <!--/counter-->
+    <section class="stats py-lg-5"  >
+        <div class="container py-5">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+					  <span class="fa fa-briefcase"></span>
+                        <h3 class="timer count-title count-number">12</h3>
+                        <p class="count-text">Yillik Tajriba</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+					  <span class="fa fa-user"></span>
+                        <h3 class="timer count-title count-number">120</h3>
+                        <p class="count-text">Bizning agentlarimiz</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+					 <span class="fa fa-smile-o"></span>
+                        <h3 class="timer count-title count-number">1280</h3>
+                        <p class="count-text"> Hursand foydalanuvchilar </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+					  <span class="fa fa-users"></span>
+                        <h3 class="timer count-title count-number">10200</h3>
+                        <p class="count-text"> Mijozlar </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//counter-->
+    <!-- portfolio -->
+    <section class="portfolio-flyer py-5" id="gallery">
+        <div class="container pt-lg-3 pb-md-5">
+                <h3 class="tittle  text-center my-lg-5 my-3">Bizning so'nggi mehmonlarimiz</h3>
+            <div class="row news-grids pb-lg-5 mt-3 mt-lg-5">
+                <div class="col-lg-4 gal-img">
+                    <div class="gal-info">
+                        <img src="{% static 'images/10.jpg' %}" alt="news image" class="img-fluid">
+                        <div class="property-info-list">
+                            <div class="detail">
+                                <h4 class="title">
+                                    Khiva
+                                </h4>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 6 kun
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 5 kecha
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-properties">
+                                <a class="admin" href="#">
+                                <span class="fa fa-user"></span> Khaby Lame
+                            </a>
+                                <span class="year text-right"> <span class="fa fa-calendar"></span> 2 oy oldin </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img">
+                    <div class="gal-info">
+                        <img src="{% static 'images/2.jpg' %}" alt="news image" class="img-fluid">
+                        <div class="property-info-list">
+                            <div class="detail">
+                                <h4 class="title">
+                                    <a href=""> Fergana </a>
+                                </h4>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 11 kun
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 12 kecha
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-properties">
+                                <a class="admin" href="#">
+                                <span class="fa fa-user"></span> Cristiano Ronaldo
+                            </a>
+                                <span class="year text-right"> <span class="fa fa-calendar"></span> 1 oy oldin </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img">
+                    <div class="gal-info">
+                        <a href=""><img src="{% static 'images/3.jpg' %}" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                            <div class="detail">
+                                <h4 class="title">
+                                    <a href=""> Bukhara </a>
+                                </h4>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 5 kun
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 4 kecha
+                                    </li>
+                                </ul>
+                            </div>
+                             <div class="footer-properties">
+                                <a class="admin" href="#">
+                                <span class="fa fa-user"></span> Selena Gomes
+                            </a>
+                                <span class="year text-right"> <span class="fa fa-calendar"></span> 8 oy oldin </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img mt-lg-4">
+                    <div class="gal-info">
+                        <a href=""><img src="{% static 'images/4.jpg' %}" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                           <div class="detail">
+                                <h4 class="title">
+                                    <a href=""> Jizzakh </a>
+                                </h4>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 15 kun
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 14 kecha
+                                    </li>
+                                </ul>
+                            </div>
+                             <div class="footer-properties">
+                                <a class="admin" href="#">
+                                <span class="fa fa-user"></span> Leonardo di Caprio
+                            </a>
+                                <span class="year text-right"> <span class="fa fa-calendar"></span> 11 oy oldin </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img mt-lg-4">
+                    <div class="gal-info">
+                        <a href="#gal5"><img src="{% static 'images/5.jpg' %}" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                             <div class="detail">
+                                <h4 class="title">
+                                    <a href=""> Samarkand </a>
+                                </h4>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 9 kun
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 10 kecha
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-properties">
+                                <a class="admin" href="#">
+                                <span class="fa fa-user"></span> Bred Pitt
+                            </a>
+                                <span class="year text-right"> <span class="fa fa-calendar"></span> 1 yil oldin </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img mt-lg-4">
+                    <div class="gal-info">
+                        <a href="#gal6"><img src="{% static 'images/6.jpg' %}" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                           <div class="detail">
+                                <h4 class="title">
+                                    <a href=""> Namangan </a>
+                                </h4>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 5 kun
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-clock-o"></span> 4 kecha
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-properties">
+                                <a class="admin" href="#">
+                                <span class="fa fa-user"></span> Yuriy Gagarin
+                            </a>
+                                <span class="year text-right"> <span class="fa fa-calendar"></span> 32 yil oldin </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //portfolio -->
+    <!-- popup-->
+    <div id="gal1" class="pop-overlay animate">
+        <div class="popup">
+            <img src="{% static 'images/1.jpg' %}" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+
+    <!-- popup-->
+    <div id="gal2" class="pop-overlay animate">
+        <div class="popup">
+            <img src="{% static 'images/2.jpg' %}" alt="Popup Image" class="img-fluid" />
+            <a class="close" href="">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!-- popup-->
+    <div id="gal3" class="pop-overlay animate">
+        <div class="popup">
+            <img src="{% static 'images/3.jpg' %}" alt="Popup Image" class="img-fluid" />
+            <a class="close" href="">&times;</a>
+        </div>
+    </div>
+    <!-- //popup3 -->
+    <!-- popup-->
+    <div id="gal4" class="pop-overlay animate">
+        <div class="popup">
+            <img src="{% static 'images/4.jpg' %}" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!-- popup-->
+    <div id="gal5" class="pop-overlay animate">
+        <div class="popup">
+            <img src="{% static 'images/5.jpg' %}" alt="Popup Image" class="img-fluid" />
+
+            <a class="close" href="">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!-- popup-->
+    <div id="gal6" class="pop-overlay animate">
+        <div class="popup">
+            <img src="{% static 'images/6.jpg' %}" alt="Popup Image" class="img-fluid" />
+            <a class="close" href="">&times;</a>
+        </div>
+    </div>
+{% endblock %}

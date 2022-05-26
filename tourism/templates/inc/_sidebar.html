@@ -1,0 +1,12 @@
+{% load travels_tags %}
+{% comment %}
+<div class="list-group">
+    {% get_list_regions as regions %}
+    <ul>
+        {% for item in regions %}
+            <li> <a href="{% url 'regions' item.pk %}"> {{ item.name }} </a> </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endcomment %}
+{% show_regions %}
